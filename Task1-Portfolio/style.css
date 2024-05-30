@@ -1,0 +1,36 @@
+.icons{
+    box-shadow: 0px 0px 20px #008080;
+}
+
+
+.blink1{
+    animation: animate1 8s linear infinite;
+}
+
+.boxline{
+    box-shadow: 0px 0px 10px #008080;
+}
+
+.p-boxline{
+    box-shadow: 0px 0px 20px #008080;
+}
+.project{
+    box-shadow: 0px 0px 100px #262626 inset;
+}
+
+.p-boxline:hover{
+    box-shadow: 0px 0px 100px #008080 inset;
+}
+
+
+  @keyframes animate1{ 
+    0%{ 
+      opacity: 0.5; 
+    } 
+    50%{ 
+      opacity: 1; 
+    } 
+    100%{ 
+      opacity: 0.5; 
+    } 
+  } 
